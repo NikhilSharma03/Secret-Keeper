@@ -1,0 +1,7 @@
+.UList {
+  height: 100%;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-right: 3rem;
+}

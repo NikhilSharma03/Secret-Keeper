@@ -1,0 +1,93 @@
+.Main {
+  position: absolute;
+  top: 42.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.MainHead {
+  text-align: center;
+  font-size: 4rem;
+  margin: 3rem;
+  color: #e7b479;
+}
+
+.MainHead label {
+  color: silver;
+}
+
+.Form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Form button {
+  margin: 0.75rem 0.5rem;
+  height: 50%;
+  padding: 1.25rem;
+  text-align: center;
+  width: 10%;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  background-color: #b7854a;
+  transition: all 0.4s;
+}
+
+.Form button:hover {
+  background-color: #e7b479;
+}
+
+/* Media Quries */
+
+@media (max-width: 625px) {
+  .Form button {
+    width: 15%;
+  }
+}
+
+@media (max-width: 525px) {
+  .Form button {
+    padding: 0.75rem;
+  }
+  .MainHead {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .Form button {
+    padding: 0.5rem;
+  }
+  .MainHead {
+    font-size: 2.75rem;
+  }
+}
+@media (max-width: 400px) {
+  .Form button {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 358px) {
+  .MainHead {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 331px) {
+  .MainHead {
+    font-size: 2.25rem;
+  }
+}
+
+@media (max-width: 304px) {
+  .MainHead label {
+    display: block;
+  }
+}

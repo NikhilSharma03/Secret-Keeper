@@ -1,0 +1,40 @@
+.Main {
+  background-color: #e7b479;
+  padding: 1rem 2rem;
+  margin-bottom: 5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.9);
+}
+
+.Main h1 {
+  margin: 0.5rem 0;
+  color: white;
+  text-shadow: 0.1rem 0.1rem black;
+}
+
+.Main label {
+  display: block;
+  text-align: end;
+  font-weight: bold;
+  color: white;
+}
+
+/*Media*/
+
+@media (max-width: 600px) {
+  .Main h1 {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .Main label {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 325px) {
+  .Main {
+    padding: 1rem 1rem;
+  }
+}

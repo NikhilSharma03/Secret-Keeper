@@ -1,4 +1,4 @@
-## Noteman
+## Secret Keeper
 
 ## Description
 Online web application to store secrets anonymously.
@@ -6,11 +6,6 @@ Online web application to store secrets anonymously.
 - A header section with the logo.
 - Firebase Realtime Storage.
 
-## Demo
-
-```
-https://notemanapp.web.app/
-```
 
 ## Setup and Installation
 
@@ -28,4 +23,3 @@ npm start
 - Redux
 - Firebase
 - CSS
-- Swiper

@@ -27,7 +27,8 @@ export const postSecret = (secret, token) => {
       time: new Date(),
     };
     axios
-      .post('https://secretkeeper-a7e5a.firebaseio.com/Secrets.json', postData)
+      //.post('https://secretkeeper-a7e5a.firebaseio.com/Secrets.json', postData)
+      .post('process.env.DATABASE_URL', postData)
       .then((res) => dispatch(postSecretSuccess()))
       .catch((err) => dispatch(postSecretFailed()));
   };

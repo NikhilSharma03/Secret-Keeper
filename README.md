@@ -8,8 +8,8 @@
 </div>
 
 ## Description
-Web app to store secrets anonymously.
 
+Web app to publically store secrets anonymously.
 - A header section with the logo.
 - Firebase Realtime Storage.
 

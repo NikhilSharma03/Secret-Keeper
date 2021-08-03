@@ -9,7 +9,7 @@
 
 ## Description
 
-Web app to publically store secrets anonymously.
+Web app to store secrets with the world anonymously.
 - A header section with the logo.
 - Firebase Realtime Storage.
 

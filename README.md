@@ -11,6 +11,7 @@
 
 Web app to store secrets and share with the world anonymously.
 - A header section with the logo.
+- Realtime Updates
 - Firebase Realtime Storage.
 
 

@@ -5,7 +5,8 @@
 
 ## Description
 
-An Web app to store secrets and share with the world anonymously.
+An Web app to store secrets and share with the world while being anonymous.
+
 - A header section with the logo
 - Firebase Realtime Storage.
 
